@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "./helper";
 
-const SERVER_URL = "https://auth-server-3850.herokuapp.com";
+const SERVER_URL = "https://enigmatic-eyrie-75084.herokuapp.com/";
 
 const register = userInfo => axios.post(`${SERVER_URL}/register`, userInfo);
 const login = userInfo => axios.post(`${SERVER_URL}/login`, userInfo);
